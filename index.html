@@ -1,31 +1,47 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>My Styled Website</title>
+  <title>Valor AI</title>
   <style>
-  body {
-    margin: 0;
-    height: 100vh;
-    background: linear-gradient(to right, #1e1e2f, #3f2c4d); /* adjust colors */
-    font-family: Arial, sans-serif;
-    color: white;
-    padding: 60px;
-  }
+    body {
+      margin: 0;
+      height: 100vh;
+      background: linear-gradient(to right, #1e1e2f, #3f2c4d);
+      font-family: Arial, sans-serif;
+      padding: 60px;
+    }
 
-  h1 {
-    color: #9fe6a0;
-  }
+    .logo {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      width: 160px;
+    }
 
-  p {
-    font-size: 18px;
-  }
-</style>
+    .button-wrapper {
+      position: absolute;
+      top: 120px;
+      left: 20px;
+    }
+
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
 </head>
 <body>
-  <h1>Hello, world!</h1>
-  <p>This is my test website, now with some style!</p>
-  <a href="landing.html">
-  <button style="padding: 10px 20px; font-size: 16px;">Go to Landing Page</button>
-</a>
+
+  <!-- ✅ Your Logo -->
+  <img src="valor-logo.png" alt="Valor AI Logo" class="logo">
+
+  <!-- ✅ Button to Landing Page -->
+  <div class="button-wrapper">
+    <a href="landing.html">
+      <button>Go to Landing Page</button>
+    </a>
+  </div>
+
 </body>
 </html>
