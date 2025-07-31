@@ -18,49 +18,28 @@
       width: 160px;
     }
 
-    /* Outer futuristic container */
-    .email-container {
+    .button-wrapper {
       position: absolute;
       top: 120px;
       left: 20px;
-      border: 2px solid #9fe6a0;
-      border-radius: 20px;
-      padding: 12px;
-      display: inline-block;
-      background: rgba(255, 255, 255, 0.05);
-      backdrop-filter: blur(6px);
-      box-shadow: 0 0 20px rgba(159, 230, 160, 0.2);
     }
 
-    /* Futuristic button inside the border */
-    .email-button {
-      display: inline-block;
-      padding: 12px 24px;
+    button {
+      padding: 10px 20px;
       font-size: 16px;
-      font-weight: bold;
-      color: #fff;
-      background: linear-gradient(135deg, #3f2c4d, #9fe6a0);
-      border: none;
-      border-radius: 12px;
-      text-decoration: none;
-      transition: transform 0.2s, box-shadow 0.2s;
-    }
-
-    .email-button:hover {
-      transform: scale(1.05);
-      box-shadow: 0 0 12px #9fe6a0;
+      cursor: pointer;
     }
   </style>
 </head>
 <body>
 
-  <!-- ✅ Logo with correct file name -->
-  <img src="valor-logo.png" alt="Valor AI Logo" class="logo">
+  <!-- ✅ Your Logo -->
+  <img src="valor-logo" alt="Valor" class="logo">
 
-  <!-- ✅ Futuristic Button Container -->
-  <div class="email-container">
-    <a href="landing.html" class="email-button">
-      Check Emails
+  <!-- ✅ Button to Landing Page -->
+  <div class="button-wrapper">
+    <a href="landing.html">
+      <button>Go to Landing Page</button>
     </a>
   </div>
 
